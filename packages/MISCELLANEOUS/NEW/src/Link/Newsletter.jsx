@@ -1,8 +1,11 @@
 import React from 'react';
+
+
 import { styles } from './styles';
 import { config } from './config';
 
-const NewsletterSponsorshipLink = () => (
+
+const Link = ({href, style, label, target="_blank"}) => (
   <div style={styles.center}>
     <br />
     <a href={config.contact} data-testid="newsletterHrefTest" target="_blank" style={styles.news}>
@@ -11,4 +14,4 @@ const NewsletterSponsorshipLink = () => (
   </div>
 );
 
-export default NewsletterSponsorshipLink;
+export default Link;
