@@ -4,14 +4,27 @@ import Address from './Address/Address.jsx';
 import Copyright from './Copyrights/Copyrights.jsx';
 import HeadStyles from './HeadStyles/index.js';
 
-import NewsletterSponsorshipLink from './newsletter-sponsorship-link/Newsletter.jsx';
 
-import Unsubscribe from './unsubscribe/Unsubscribe.jsx';
+import Link from './Link';
+
+import Link from './newsletter-sponsorship-link/Newsletter.jsx';
+
+import Unsubscribe from './Unsubscribe/Unsubscribe.jsx';
+
+
+
+import Image from './Image';
+import ImageLink from './ImageLink';
+
+import Logo from './Logo';
+import SocialMedia from './SocialMedia';
+import Table from './Table';
+
 
 
 export {
   Address, Copyright, HeadStyles, 
-  
+
   NewsletterSponsorshipLink, 
   
   Unsubscribe

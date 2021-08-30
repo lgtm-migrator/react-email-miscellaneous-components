@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Copyright = () => (
+const Copyright = ({companyName}) => (
   <em data-testid="copyTest">
     Copyright ©
     {new Date().getFullYear()}
     {' '}
-    Hacker Noon. All rights reserved.
+    {companyName}. 
+    All rights reserved.
   </em>
 );
 
