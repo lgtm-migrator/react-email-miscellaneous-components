@@ -5,7 +5,7 @@ import { Img } from 'react-image';
 
 
 
-const Logo = () => (
+const Image = () => (
     <img
         align="center"
         alt=""
@@ -17,7 +17,7 @@ const Logo = () => (
 
 );
 
-export default Logo;
+export default Image;
 
 
 // import React, {Suspense} from 'react'
