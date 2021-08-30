@@ -3,7 +3,7 @@ import { shallow, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import renderer from 'react-test-renderer';
 import ReactDOM from 'react-dom';
-import NewsletterSponsorshipLink from './index';
+import NewsletterSponsorshipLink from './newsletter-sponsorship-link/index';
 
 configure({ adapter: new Adapter() });
 
