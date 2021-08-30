@@ -1,10 +1,13 @@
 import React from 'react';
 
-import Table from "atherdon-react-markdown-component-body"
+import Table from "../Table/Table.jsx"
 
 
 import { styles } from './styles';
 import config from './config';
+
+
+import Link from '../Link/Link.jsx';
 
 const Logo = () => (
   <Table

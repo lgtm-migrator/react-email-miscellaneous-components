@@ -1,1 +1,1 @@
-xxx
+import Link from '../Link/Link.jsx';
