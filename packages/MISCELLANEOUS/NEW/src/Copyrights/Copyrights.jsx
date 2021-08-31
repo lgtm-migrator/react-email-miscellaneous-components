@@ -1,6 +1,7 @@
 import React from 'react';
 
-// TODO: 
+
+// TODO: create a layout, HOC style for this component
 const Copyright = ({companyName}) => (
   <em data-testid="copyTest">
     Copyright ©

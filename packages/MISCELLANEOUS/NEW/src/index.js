@@ -27,5 +27,11 @@ export {
 
   Link, 
   
-  Unsubscribe
+  Unsubscribe,
+
+  Image,
+  ImageLink,
+  Logo,
+  SocialMedia,
+  Table
 };
