@@ -7,7 +7,7 @@ import HeadStyles from './HeadStyles/index.js';
 
 import Link from './Link';
 
-import Link from './newsletter-sponsorship-link/Newsletter.jsx';
+
 
 import Unsubscribe from './Unsubscribe/Unsubscribe.jsx';
 
@@ -25,7 +25,7 @@ import Table from './Table';
 export {
   Address, Copyright, HeadStyles, 
 
-  NewsletterSponsorshipLink, 
+  Link, 
   
   Unsubscribe
 };

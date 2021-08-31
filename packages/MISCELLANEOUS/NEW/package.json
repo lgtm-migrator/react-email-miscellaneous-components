@@ -1,5 +1,5 @@
 {
-  "name": "atherdon-react-markdown-component-misc",
+  "name": "react-emails-components-misc",
   "version": "0.0.5",
   "description": "Example React Component for npm Publication using Rollup",
   "main": "build/index.cjs.js",

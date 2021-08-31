@@ -1,3 +1,3 @@
-import NewsletterSponsorshipLink from './Link';
+import Link from './Link.jsx';
 
-export default NewsletterSponsorshipLink;
+export default Link;

@@ -1,5 +1,6 @@
 import React from 'react';
 
+// TODO: 
 const Copyright = ({companyName}) => (
   <em data-testid="copyTest">
     Copyright ©
