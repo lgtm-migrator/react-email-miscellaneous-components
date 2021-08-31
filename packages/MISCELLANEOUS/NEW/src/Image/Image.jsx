@@ -3,7 +3,7 @@ import React from 'react';
 // import { Img } from 'react-image';
 // const myComponent = () => <Img src="https://www.example.com/foo.jpg" />
 
-const Image = () => (
+const Image = (props) => (
     <img
         align="center"
         alt=""
@@ -17,6 +17,16 @@ const Image = () => (
 
 export default Image;
 
+
+{/* <img
+src={src}
+alt={alt}
+style={styles.followSocialImg}
+height={24}
+width={24}
+className=''
+data-testid="tableLeftImgTest"
+/> */}
 
 // import React, { Suspense } from 'react'
 // import { useImage } from 'react-image'
