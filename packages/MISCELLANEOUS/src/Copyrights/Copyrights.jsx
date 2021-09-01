@@ -13,9 +13,8 @@ const Sign = () => {
 }
 
 // TODO: create a layout, HOC style for this component
-const Copyright = ({companyName}) => (
 
-
+const Copyrights = ({companyName}) => (
 
   <em data-testid="copyTest">
     Copyright ©
@@ -31,16 +30,45 @@ const Copyright = ({companyName}) => (
 export default Copyright;
 
 
-//<em data-testid="copyTest">
-//    Copyright ©
-//    {new Date().getFullYear()}
-//    {' '}
-//    {companyName}. 
-//    All rights reserved.
-//  </em>
+const Copyright = ({children}) => (
+  <>
+    {children}    
+  </>
+);
 
-// <td align="left" class="body text-secondary">
-//   © Company, Inc. All Rights Reserved.
-//   <br>
-//   <span class="address">101 King St, San Francisco, CA 94107</span>
-// </td>
+export default Copyright;
+
+
+
+const companyName = () => {
+  return 'xxx';
+}
+
+
+const CopyrightLayout1 = () => (
+
+  <Copyright>
+    <em data-testid="copyTest">
+      Copyright <Sign />
+
+      {year()}
+      {' '}
+      {companyName()}. 
+    All rights reserved.
+  </em>   
+  </Copyright>
+ 
+);
+
+
+const CopyrightLayout2 = () => (
+  <Copyright>
+    <td align="left" class="body text-secondary">
+      <Sign /> {companyName()}. All Rights Reserved.
+      <br>
+
+      <span class="address">101 King St, San Francisco, CA 94107</span>
+
+    </td>
+  </Copyright> 
+);
