@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import { Table } from 'react-emails-components-miscellaneous';
 import Table from '../Table/Table.jsx'
 
 // TODO: add styles as props from the outside

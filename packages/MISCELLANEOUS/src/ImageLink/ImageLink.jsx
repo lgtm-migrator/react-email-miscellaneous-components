@@ -1,8 +1,8 @@
 import React from 'react';
 
-// import Image from '../Image/Image.jsx'
+import Link from '../Link/Link.jsx';
+import Image from '../Image/Image.jsx'
 
-// import Link from '../Link/Link.jsx';
 
 let linkProps = {
     href: ,
@@ -24,16 +24,26 @@ let imageProps = {
 
 
 
+const ImageLink = ({}) => (
 
+export here stuff for links, 
+export here stuff for images
 
-<a href={href} target="_blank" style={styles.followSocial} data-testid="tableLeftHrefTest">
-                            <img
-                              src={src}
-                              alt={alt}
-                              style={styles.followSocialImg}
-                              height={24}
-                              width={24}
-                              className=''
-                              data-testid="tableLeftImgTest"
-                            />
-                          </a>
+    <Link>
+        <Image />
+    </Link>
+
+  <a href={href} target="_blank" style={styles.followSocial} data-testid="tableLeftHrefTest">
+    <img
+      src={src}
+      alt={alt}
+      style={styles.followSocialImg}
+      height={24}
+      width={24}
+      className=''
+      data-testid="tableLeftImgTest"
+    />
+  </a>
+);
+
+export default ImageLink;
