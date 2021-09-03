@@ -1,7 +1,8 @@
 import React from 'react';
+import Link from '../Link/Link.jsx';
 
-const xxx = ({}) => (
+const EmailLink = ({}) => (
   <> </>
 );
 
-export default xxx;
+export default EmailLink;

@@ -46,10 +46,19 @@ My requirements for this package were
   * [Making of a Component Library for React](https://hackernoon.com/making-of-a-component-library-for-react-e6421ea4e6c7)
   * The [`transitive-bullshit/create-react-library`](https://github.com/transitive-bullshit/create-react-library) was also very useful to inspect
 
-## Footnotes
 
-<ul>
-  <li><a name="general-footnote"><sup>1</sup></a>general general general general general. In general, I could do this all day.</li>
-  <li><a name="metric-fuck-ton-footnote"><sup>2</sup></a><a href="https://github.com/rollup/rollup/wiki/Plugins">Like a metric fuck ton of plugins</a></li>
-  <li><a name="baller-react-modules-footnote"><sup>3</sup></a><a href="https://media.giphy.com/media/oOTTyHRHj0HYY/giphy.gif">How I feel about "baller"</a></li>
-</ul>
+- Address
+- BasicTable
+- Copyrights
+- CopyrightSign
+- EmailLink
+- HeadStyles
+- Image
+- ImageLink
+- LeftTable
+- Link
+- Logo
+- PhoneLink
+- SocialMedia
+- Table
+- Unsubscribe

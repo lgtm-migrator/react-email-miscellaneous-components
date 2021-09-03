@@ -1,7 +1,7 @@
 import React from 'react';
 
-const xxx = ({}) => (
+const PhoneLink = ({}) => (
   <> </>
 );
 
-export default xxx;
+export default PhoneLink;

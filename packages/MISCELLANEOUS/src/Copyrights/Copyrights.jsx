@@ -27,7 +27,7 @@ const Copyrights = ({companyName}) => (
 
 );
 
-export default Copyright;
+// export default Copyright;
 
 
 const Copyright = ({children}) => (
@@ -36,7 +36,7 @@ const Copyright = ({children}) => (
   </>
 );
 
-export default Copyright;
+// export default Copyright;
 
 
 
@@ -65,10 +65,15 @@ const CopyrightLayout2 = () => (
   <Copyright>
     <td align="left" class="body text-secondary">
       <Sign /> {companyName()}. All Rights Reserved.
-      <br>
+      <br />
 
       <span class="address">101 King St, San Francisco, CA 94107</span>
 
     </td>
   </Copyright> 
 );
+
+
+
+export default Copyright;
+{/* export default { Copyrights, Copyright, CopyrightLayout1, CopyrightLayout2 }; */}
