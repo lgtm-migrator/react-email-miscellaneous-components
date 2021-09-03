@@ -4,8 +4,8 @@ import Link from '../Link/Link.jsx';
 
 import ImageLink from '../ImageLink/ImageLink.jsx';
 
-const xxx = ({}) => (
+const SocialMedia = ({}) => (
   <> </>
 );
 
-export default xxx;
+export default SocialMedia;

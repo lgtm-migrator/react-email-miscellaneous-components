@@ -6,11 +6,11 @@ import Table from '../Table/Table.jsx'
 const BasicTable = ({children}) => (
 
   <Table 
-  border="0" 
-  cellpadding="0" 
-  cellspacing="0" 
-  role="presentation" 
-  width="100%">
+    border="0" 
+    cellpadding="0" 
+    cellspacing="0" 
+    role="presentation" 
+    width="100%">
     <tbody>
 
       {children}
