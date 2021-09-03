@@ -24,14 +24,14 @@ import Image from '../Image/Image.jsx'
 
 
 
-const ImageLink = ({}) => (
+const ImageLink = ({href, styles, src, alt }) => (
 
 //export here stuff for links, 
 //export here stuff for images
 
-    {/*<Link {..props}>
-        <Image {..props}/>
-      </Link> */}
+    // {/*<Link {..props}>
+    //     <Image {..props}/>
+    //   </Link> */}
 
   <a href={href} target="_blank" style={styles.followSocial} data-testid="tableLeftHrefTest">
     <img
