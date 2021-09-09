@@ -4,7 +4,7 @@ import Link from '../Link/Link.jsx';
 
 import ImageLink from '../ImageLink/ImageLink.jsx';
 
-const SocialMedia = ({}) => (
+const SocialMedia = ({ socialMediaLinks }) => (
   <> </>
 );
 
