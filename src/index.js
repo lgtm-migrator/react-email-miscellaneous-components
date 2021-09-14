@@ -20,11 +20,10 @@ import ImageLink from './ImageLink/ImageLink.jsx';
 
 import SocialMedia from './SocialMedia/SocialMedia.jsx';
 
-import Table from './Table/Table.jsx';
-
-
 
 import Copyright from './Copyrights/Copyrights.jsx';
+
+import NBSP from './NBSP/NBSP.jsx';
 
 export {
   Address, HeadStyles, 
@@ -37,8 +36,7 @@ export {
   ImageLink,
   Logo,
   SocialMedia,
-  Table,
 
-
-   Copyright
+  Copyright,
+  NBSP
 };
