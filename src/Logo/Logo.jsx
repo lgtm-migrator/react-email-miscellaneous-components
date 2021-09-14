@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import Table from "../Table/Table.jsx"
+
 
 
 // import { styles } from './styles';
@@ -10,6 +10,8 @@ import React from 'react';
 
 // import Link from '../Link/Link.jsx';
 // import Image from '../Image/Image.jsx';
+
+// import ImageLink from '../ImageLink/ImageLink.jsx';
 
 const Logo = ({href, imageLink, styles}) => (
 
