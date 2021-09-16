@@ -4,16 +4,21 @@ import { styles } from './styles';
 
 // TODO: try prop-types pkg for component attributes
 
-
 import Link from '../Link/Link.jsx';
 
 const Unsubscribe = ({ hrefUnsub, label, styles }) => (
-  <a 
+
+  <Link href={hrefUnsub} style={styles} data-testid="unsubscribeTest">
+    {label}
+  </Link>
+  
+);
+
+export default Unsubscribe;
+
+{/* <a 
     href={hrefUnsub} 
     style={styles} 
     data-testid="unsubscribeTest">
       {label}    
-  </a>
-);
-
-export default Unsubscribe;
+  </a> */}

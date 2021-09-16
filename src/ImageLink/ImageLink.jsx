@@ -4,36 +4,61 @@ import Link from '../Link/Link.jsx';
 import Image from '../Image/Image.jsx'
 
 
-// let linkProps = {
-//     href: ,
-//     target: ,
-//     style: ,
-//     data-testid: "tableLeftHrefTest"
-// };
+const imgProps = (props) => {
+  let { src, alt, style, height, width, className } = props; 
 
-// let imageProps = {
-//     src: ,
-//     alt: ,
-//     style: ,
-//     height: ,
-//     width: ,
-//     className: ,
-//     data-testid: "tableLeftImgTest"
-// };
+  return {
+    src: src,
+    alt: alt,
+    style: style,
+    height: height,
+    width: width,
+    className: className
+  }
+}
 
 
+const getLinkProps = (props) => {
+  let { href, target, style } = props;
+
+  return {
+        href: href,        
+        style: style,
+        target: target        
+  };
+}
 
 
-const ImageLink = ({href, styles, src, alt }) => (
+// TODO stuff, related to styles is highly debated
 
-//export here stuff for links, 
-//export here stuff for images
+const ImageLink = (props) => {
+  let link = getLinkProps(props);
+  let image = imgProps(props);
 
-    // {/*<Link {..props}>
-    //     <Image {..props}/>
-    //   </Link> */}
+  return (
+    <Link {...link} >
+      <Image {...image} />
+    </Link>  
+  );
+}
 
-  <a href={href} target="_blank" style={styles.followSocial} data-testid="tableLeftHrefTest">
+// const ImageLink = ({href, styles, src, alt }) => (
+
+//   <Link href={href} style={styles.followSocial} data-testid="tableLeftHrefTest">
+//     <Image {...imgProps()} />
+//   </Link>  
+
+// );
+
+
+export {
+  imgProps,
+  getLinkProps,
+  ImageLink
+}
+// export default ImageLink;
+
+{/* <a href={href} target="_blank" style={styles.followSocial} data-testid="tableLeftHrefTest">
     <img
       src={src}
       alt={alt}
@@ -43,7 +68,4 @@ const ImageLink = ({href, styles, src, alt }) => (
       className=''
       data-testid="tableLeftImgTest"
     />
-  </a>
-);
-
-export default ImageLink;
+  </a> */}
