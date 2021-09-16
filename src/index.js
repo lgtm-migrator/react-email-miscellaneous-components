@@ -15,7 +15,11 @@ import Unsubscribe from './Unsubscribe/Unsubscribe.jsx';
 
 import Image from './Image/Image.jsx';
 import Logo from './Logo/Logo.jsx';
-import ImageLink from './ImageLink/ImageLink.jsx';
+import {
+  imgProps,
+  getLinkProps,
+  ImageLink
+} from './ImageLink/ImageLink.jsx';
 
 
 import SocialMedia from './SocialMedia/SocialMedia.jsx';
@@ -33,7 +37,11 @@ export {
   Unsubscribe,
 
   Image,
+  
   ImageLink,
+  imgProps,
+  getLinkProps,
+
   Logo,
   SocialMedia,
 
