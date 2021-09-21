@@ -56,3 +56,5 @@ My requirements for this package were
 - SocialMedia
 - Table
 - Unsubscribe
+
+![xxx](https://github.com/LLazyEmail/react-email-miscellaneous-components/blob/main/miscellaneous-components.png?raw=true)
