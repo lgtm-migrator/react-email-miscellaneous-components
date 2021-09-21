@@ -69,3 +69,20 @@ export {
       data-testid="tableLeftImgTest"
     />
   </a> */}
+
+
+{*  <a 
+      href={leftHref} 
+      data-testid="sponsorHrefTest" 
+      title='' 
+ className='' 
+      target="_blank" 
+      style={styles.title}>
+        <img 
+          alt="" 
+          src={leftSrc} 
+          width={150} 
+          data-testid="sponsorSrcTest" 
+          style={styles.image} 
+          className="mcnImage" />
+    </a> */}
