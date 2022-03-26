@@ -101,7 +101,7 @@
     "rollup": "2.70.1",
     "rollup-plugin-filesize": "9.1.2",
     "rollup-plugin-postcss": "4.0.2",
-    "sass": "1.44.0",
+    "sass": "1.49.9",
     "sass-loader": "12.6.0",
     "semantic-release": "18.0.1",
     "source-map-loader": "3.0.1",
