@@ -33,6 +33,29 @@ My requirements for this package were
 
 ---
 
+
+```bash
+├── xxx
+│   ├── xxx
+│   │   ├── **/*.xxx
+│   ├── xxx
+│   ├── images
+│   ├── xxx
+│   ├── js
+│   │   ├── **/*.js
+│   └── xxx
+├── dist (or build)
+├── 
+├── 
+├── 
+├── 
+├── README.md
+├── package.json
+├── 
+└── .gitignore
+```
+
+
 # react-email-miscellaneous-components
 
 - install https://www.npmjs.com/package/@reach/router
